@@ -1,7 +1,7 @@
 package com.structures.linkedlist;
 import com.structures.school.Student;
 
-public class LinkList {
+public class LinkedList {
 	private Node first = null;
 
 	public Node getFirst() {

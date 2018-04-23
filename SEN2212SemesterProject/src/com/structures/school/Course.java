@@ -1,25 +1,25 @@
 package com.structures.school;
 import java.util.Random;
 
-import com.structures.linkedlist.LinkList;
+import com.structures.linkedlist.LinkedList;
 
-public class Class {
+public class Course {
 	
 	// Attributes and references
 	private String name;
-	private LinkList list;
+	private LinkedList list;
 	private Random random;
 	
 	// Default constrcutor
-	public Class(){
+	public Course(){
 		random = new Random();
-		list = new LinkList();
+		list = new LinkedList();
 	}
-	public LinkList getList() {
+	public LinkedList getList() {
 		return list;
 	}
 
-	public void setList(LinkList ll) {
+	public void setList(LinkedList ll) {
 		this.list = ll;
 	}
 	//serdar,ekin burayı yapın

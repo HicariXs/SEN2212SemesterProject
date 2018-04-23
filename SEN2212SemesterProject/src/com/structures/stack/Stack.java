@@ -1,14 +1,14 @@
 package com.structures.stack;
-import com.structures.linkedlist.LinkList;
+import com.structures.linkedlist.LinkedList;
 import com.structures.linkedlist.Node;
-import com.structures.school.Class;
+import com.structures.school.Course;
 
-public class ClassStack {
-	private Class cl;	
-	LinkList li = new LinkList();
+public class Stack {
+	private Course cl;	
+	LinkedList li = new LinkedList();
 	private Node top;
 
-	public void push(Class cl) {
+	public void push(Course cl) {
 		if(top==null){
 			top=cl.getList().getFirst();
 		}
@@ -29,11 +29,11 @@ public class ClassStack {
 		li.displayList();
 	}
 
-	public Class getCl() {
+	public Course getCl() {
 		return cl;
 	}
 
-	public void setCl(Class cl) {
+	public void setCl(Course cl) {
 		this.cl = cl;
 	}
 

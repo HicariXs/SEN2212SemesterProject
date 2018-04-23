@@ -1,12 +1,12 @@
 package com.structures.main;
 import java.util.Scanner;
 
-import com.structures.school.Class;
+import com.structures.school.Course;
 import com.structures.school.GPA;
 import com.structures.school.Student;
-import com.structures.stack.ClassStack;
+import com.structures.stack.Stack;
 import com.structures.tree.BinarySearchTree;
-import com.structures.tree.TreeNode;
+import com.structures.tree.Node;
 
 public class Test {
 	static BinarySearchTree bst=new BinarySearchTree();
@@ -16,15 +16,15 @@ public class Test {
 
 	}
 	public static void CreateSchool(){
-		ClassStack cs=new ClassStack();
+		Stack cs=new Stack();
 		System.out.println("pls enter how many Student and class");
 		int studentCount=sc.nextInt();
 		int classCount=sc.nextInt();
 		for(int i=0;i<classCount;i++){
-			Class c=new Class();
+			Course c=new Course();
 			System.out.println("pls enter a class name");
 			c.setName(sc.next());
-			TreeNode tn=new TreeNode(c);
+			Node tn=new Node(c);
 			for(int j=0;j<studentCount;j++){
 				Student st =new Student();
 				GPA gpa=new GPA();
@@ -56,7 +56,7 @@ public class Test {
 
 
 	}
-	public static void inorder(TreeNode root){
+	public static void inorder(Node root){
 		if(root==null){
 			return;
 		}
