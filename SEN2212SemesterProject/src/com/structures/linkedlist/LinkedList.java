@@ -1,4 +1,7 @@
-public class LinkList {
+package com.structures.linkedlist;
+import com.structures.school.Student;
+
+public class LinkedList {
 	private Node first = null;
 
 	public Node getFirst() {

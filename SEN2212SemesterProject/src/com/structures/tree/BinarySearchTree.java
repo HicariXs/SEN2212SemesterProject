@@ -1,21 +1,24 @@
+package com.structures.tree;
 import java.util.LinkedList;
+
+import com.structures.school.Course;
 
 public class BinarySearchTree {
 
-	private TreeNode root;
+	private Node root;
 	private int size;
 	public BinarySearchTree(){
 		root= null;
 		size= 0;
 	}
 
-	private TreeNode createNewNode(Class cl){
-		return new TreeNode(cl);
+	private Node createNewNode(Course cl){
+		return new Node(cl);
 	}
-	public TreeNode getRoot() {
+	public Node getRoot() {
 		return root;
 	}
-	public void setRoot(TreeNode root) {
+	public void setRoot(Node root) {
 		this.root = root;
 	}
 	public int getSize() {
@@ -24,12 +27,12 @@ public class BinarySearchTree {
 	public void setSize(int size) {
 		this.size = size;
 	}
-	public boolean insert(TreeNode tn){
+	public boolean insert(Node tn){
 		if(root==null)
 			root=createNewNode(tn.getclass());
 		else{
-			TreeNode parent=null;
-			TreeNode current=root;
+			Node parent=null;
+			Node current=root;
 			while(current!=null){
 
 				if(tn.getclass().getAvgGpa()<current.getclass().getAvgGpa()){

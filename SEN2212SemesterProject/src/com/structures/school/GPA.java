@@ -1,3 +1,4 @@
+package com.structures.school;
 
 public class GPA {
 
