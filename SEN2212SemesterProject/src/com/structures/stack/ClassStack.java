@@ -1,4 +1,7 @@
-
+package com.structures.stack;
+import com.structures.linkedlist.LinkList;
+import com.structures.linkedlist.Node;
+import com.structures.school.Class;
 
 public class ClassStack {
 	private Class cl;	

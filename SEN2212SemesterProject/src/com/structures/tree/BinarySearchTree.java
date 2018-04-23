@@ -1,4 +1,7 @@
+package com.structures.tree;
 import java.util.LinkedList;
+
+import com.structures.school.Class;
 
 public class BinarySearchTree {
 

@@ -1,4 +1,12 @@
+package com.structures.main;
 import java.util.Scanner;
+
+import com.structures.school.Class;
+import com.structures.school.GPA;
+import com.structures.school.Student;
+import com.structures.stack.ClassStack;
+import com.structures.tree.BinarySearchTree;
+import com.structures.tree.TreeNode;
 
 public class Test {
 	static BinarySearchTree bst=new BinarySearchTree();

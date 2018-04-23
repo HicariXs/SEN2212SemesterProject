@@ -1,3 +1,6 @@
+package com.structures.linkedlist;
+import com.structures.school.Student;
+
 public class LinkList {
 	private Node first = null;
 

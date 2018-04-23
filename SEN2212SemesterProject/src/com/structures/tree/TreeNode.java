@@ -1,3 +1,6 @@
+package com.structures.tree;
+import com.structures.school.Class;
+
 public class TreeNode {
 	private Class cl;
 	private TreeNode left;

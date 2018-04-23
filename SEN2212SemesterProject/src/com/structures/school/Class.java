@@ -1,4 +1,7 @@
+package com.structures.school;
 import java.util.Random;
+
+import com.structures.linkedlist.LinkList;
 
 public class Class {
 	
