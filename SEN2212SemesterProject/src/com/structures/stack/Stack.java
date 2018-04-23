@@ -29,14 +29,6 @@ public class Stack {
 		li.displayList();
 	}
 
-	public Course getCl() {
-		return cl;
-	}
-
-	public void setCl(Course cl) {
-		this.cl = cl;
-	}
-
 
 
 
