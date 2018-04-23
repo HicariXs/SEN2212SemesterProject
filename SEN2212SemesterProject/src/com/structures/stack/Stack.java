@@ -4,7 +4,7 @@ import com.structures.linkedlist.Node;
 import com.structures.school.Course;
 
 public class Stack {
-	private Course cl;	
+	
 	LinkedList li = new LinkedList();
 	private Node top;
 
@@ -25,7 +25,7 @@ public class Stack {
 	}
 
 	public void displayStack() {
-		System.out.println(" Class:");
+		System.out.println("Course:");
 		li.displayList();
 	}
 
